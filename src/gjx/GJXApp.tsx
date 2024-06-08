@@ -30,7 +30,7 @@ const GJXApp: React.FC<{}> = () => {
   const firebaseConfig = {
     projectId,
     apiKey,
-    databaseURL: `https://${projectId}-default-rtdb.firebaseio.com`,
+    databaseURL: `https://${projectId}-default-rtdb.asia-southeast1.firebasedatabase.app`,
   };
 
   useEffect(() => {
